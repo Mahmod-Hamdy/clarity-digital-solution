@@ -1,0 +1,530 @@
+/* Layout Out File For Responsive Design in all Screen📱💻 */
+
+/* breaking Point Design */
+/* xs */
+@media screen and (max-width:640px) {
+#home{
+    padding: 110px 0;
+}
+#home .d-inline-block {
+    background-color: #FDEADE;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #EA580B;
+}
+#home h1 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
+}
+#home p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #4a5565;
+}
+.buttons{
+    flex-wrap: wrap;
+        flex-direction: column;
+}
+.inner-buttonس-1 {
+width: 100% !important;
+}
+.button-1{
+width: 100%;
+}
+.inner-buttonس-2 {
+width: 100% !important;
+}
+.button-2{
+width: 100%;
+}
+.rates{
+    gap:0 !important;
+    justify-content: space-around !important;
+}
+.rates .span-1-rate{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #ea580c;
+}
+.rates .span-2-rate {
+    font-size: 14px;
+    font-weight: 400;
+}
+.header-figure{
+    width: 92%;
+    margin: auto;
+    margin-top: 30px;
+}
+#ourServices .d-inline-block {
+    background-color: #FDEADE;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #EA580B;
+}
+#ourServices h2 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
+}
+#ourServices p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4a5565; 
+    width: 100% !important;
+}
+.head-span-p .d-inline-block {
+    background-color: #FDEADE;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #EA580B;
+}
+#technology h2 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
+}
+#technology p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4a5565;
+    width: 100% !important;
+}
+.nav-links{
+    width: 100% !important;
+}
+.px-5 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+.px-4 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+.head-p-tabs h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #7c2d12;
+}
+.head-p-tabs p {
+font-size: 17px !important;
+font-weight: 400;
+line-height: 30px;
+color: #4a5565;
+width: 100% !important;
+}
+.inner-col-tab-content .txt-clr-brown {
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: 28px;
+    color: #7c2d12;
+}
+#technology .inner-col-tab-content p {
+    font-size: 14px !important;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4a5565;
+    width: 100% !important;
+}
+.spans-services .span-green {
+    margin-right: 1px;
+}
+#testmonials h2 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 48px;
+}
+#testmonials p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #4a5565;
+    width: 100% !important;
+}
+.rate{
+    gap:15px !important; 
+    flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+.ms-auto{
+    margin-left: 0px !important;
+}
+.one-clint {
+    padding: 30px !important;
+}
+.figure-rate {
+    padding: 15px !important;
+}
+.stares figure {
+    margin: 0 0 0.5rem;
+}
+.verified {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ea580c;
+}
+.verified-size {
+    font-size: 6px;
+    color: white;
+}
+.verified-icon {
+    padding: 3px 5px !important;
+}
+#testmonials .w-69 {
+    width: 95% !important;
+}
+#testmonials p {
+    font-size: 15px !important;
+    font-weight: 400;
+    line-height: 33px;
+    color: #4a5565;
+    width: 100% !important;
+}
+.profile-fig {
+width: 35% !important;
+}
+.in-profile{
+    flex-direction: column !important;
+    gap: 10px !important;
+    align-items: center;
+}
+.profile{
+    flex-direction: column !important;
+    gap: 10px !important;
+    align-items: center;
+}
+.descrip-profile{
+    text-align: center;
+}
+.percentage{
+    display: none;
+}
+#fac h2 {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 38px;
+}
+#fac p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #4a5565;
+    width: 100%;
+}
+#fac .w-65 {
+    width: 100% !important;
+}
+.accordion-button {
+    font-size: 14px;
+}
+.p-clr {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #4a5565;
+}
+
+#contact .part-1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 38px;
+}
+#contact .part-2 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 38px;
+}
+#contact .head-span-p h2{
+    line-height: 4.2;
+    margin-top: 20px;
+}
+#contact p {
+    color: #4a5565;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    width: 100%;
+    margin-top: 0px !important;
+}
+.form {
+    width:98% !important;
+}
+.inner-col-form {
+    padding: 20px;
+}
+form .col-md-6{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.inner-col-form h3 {
+    font-size: 20px;
+}
+#contact .inner-col-form p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #4a5565;
+    margin-bottom: 25px;
+}
+#contact textarea::placeholder{
+    font-size: 13px;
+}
+.form-check{
+    gap: 15px !important;
+}
+.form-check label{
+        font-size: 12px;
+}
+.pb-sl-1{
+    padding-bottom: 1rem !important;
+}
+.footer-flex{
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+.p-weight {
+    font-weight: 400;
+    margin-top: 15px !important;
+    margin-bottom: 25px !important;
+    width: 100% !important;
+}
+.logo-footer{
+    margin-bottom: 45px !important;
+}
+#copyWrite {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 13px !important;
+    color: #000000;
+}
+#pOfCopyWrite {
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 12px;
+    color: #4a5565;
+}
+.heart-clr {
+    font-size: 12px !important;
+}
+.navbar-nav .nav-link {
+margin-bottom: 15px;
+}
+.nav-link::after{
+    display: none;
+}
+.btn-1-navbar{
+    border: 2px solid rgb(209, 208, 208);
+    border-radius: 30px;
+}
+.dropdown-menu.show{
+    display: flex;
+    flex-direction: column;
+    max-height: 55vh;
+    overflow-y: auto;
+}
+.dropdown-menu{
+    transform: translateX(0);
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+}
+.inner-dropdown-menu .span-col-services {
+    font-size: 14px;
+        font-weight: 600;
+}
+.inner-dropdown-menu {
+    margin: 10px !important;
+}
+}
+/* md */
+@media screen and (min-width:768px) and (max-width:1024px){
+#home {
+    padding: 150px 0 !important;
+}
+#home{
+    padding: 110px 0;
+}
+#home .d-inline-block {
+    background-color: #FDEADE;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #EA580B;
+}
+#home h1 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
+}
+#home p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #4a5565;
+}
+#ourServices .d-inline-block {
+    background-color: #FDEADE;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #EA580B;
+}
+#ourServices h2 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
+}
+#ourServices p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4a5565; 
+    width: 100% !important;
+}
+#technology h2 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
+}
+#technology p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4a5565;
+    width: 100% !important;
+}
+.nav-links{
+    width: 100% !important;
+}
+.spans-services .span-green {
+    margin-right: 1px;
+}
+#testmonials h2 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 48px;
+}
+#testmonials p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #4a5565;
+    width: 95% !important;
+}
+#testmonials .w-69 {
+    width: 90% !important;
+}
+.profile-fig {
+width: 21% !important;
+}
+#testmonials #descrip-3 {
+    width:100% !important;
+}
+#testmonials #descrip-2 {
+    width:100% !important;
+}
+#fac h2 {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 38px;
+}
+#fac p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #4a5565;
+    width: 100%;
+}
+#fac .w-65 {
+    width: 90% !important;
+}
+#contact .part-1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 38px;
+}
+#contact .part-2 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 38px;
+}
+#contact .head-span-p h2{
+    line-height: 3.2;
+    margin-top: 20px;
+}
+#contact p {
+    color: #4a5565;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    width: 95%;
+    margin-top: 0px !important;
+}
+.form {
+    width:95% !important;
+}
+.navbar-nav .nav-link {
+margin-bottom: 15px;
+}
+.nav-link::after{
+    display: none;
+}
+.buttons{
+    flex-wrap: wrap;
+}
+.btn-1-navbar{
+    width: 100%;
+    border: 2px solid rgb(209, 208, 208);
+    border-radius: 30px;
+}
+.btn-2-navbar{
+    width: 100%;
+}
+.dropdown-menu{
+    transform: translateX(0);
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+}
+.dropdown-menu.show{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 55vh;
+    overflow-y: auto;
+}
+.market-flex{
+    display: flex;
+    gap:10px;
+    align-items: stretch;
+
+}
+.market-flex .paragraph-of-row {
+    color: #6a7282;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.par-market{
+    flex: 1;
+}
+
+.par-market .one-row{
+    height: 100% !important;
+}
+.par-market ul,
+.par-market li{
+    height: 100%;
+    margin: 0;
+}
+}
